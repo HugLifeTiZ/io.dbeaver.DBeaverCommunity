@@ -20,6 +20,9 @@ finish-args:
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.freedesktop.FileManager1
   - --filesystem=home
+  - --persist=.eclipse
+  - --persist=.webclipse
+  - --persist=.swt
   - --env=PATH=/app/clients/bin:/app/jre/bin:/usr/bin
 
 add-extensions:
